@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from 'react-bootstrap';
 import { CountryCode, DATA } from '../../const';
-import tm from '../../jsonData/timeZone.json';
+import tm from '../../data/timeZone.json';
 
 const Clock = ({ onSearch }) => {
   console.log();
   const [time, setTime] = useState(new Date());
   const [showLocalTime, setShowLocalTime] = useState(true);
 
-    useEffect(() => {
+  useEffect(() => {
     if (!onSearch || typeof onSearch !== 'string') {
       return;
     }
@@ -19,7 +19,7 @@ const Clock = ({ onSearch }) => {
     });
 
     const timeOffset = country ? country.timezone_offset * 3600000 : 0;
-    
+
     const timer = setInterval(() => {
       setTime(new Date(Date.now() - 21600000 + timeOffset));
     }, 1000);
@@ -48,8 +48,8 @@ const Clock = ({ onSearch }) => {
       right: '20px',
       zIndex: 9999
     }}>
-      <Button 
-        variant="outline-primary" 
+      <Button
+        variant="outline-primary"
         onClick={toggleTimeFormat}
         style={{ minWidth: '150px', fontSize: '1.5rem', padding: '10px 20px', fontFamily: 'monospace' }}
       >

@@ -20,7 +20,7 @@ A powerful and interactive web application that allows users to search for count
 
 - ⚛️ [React](w) (Vite)
 - 🌐 [Axios](w)
-- 🗺️ [React Leaflet](w) (OpenStreetMap)
+- 🗺️ [react-simple-maps](w)
 - 🤖 [Groq LLM API](w)
 - 🎨 [Material UI](w)
 
@@ -28,33 +28,12 @@ A powerful and interactive web application that allows users to search for count
 
 ## 🚀 Live Demo
 
-Coming soon...
+[Demo-Link](https://country-finder-swart.vercel.app/)
 
 ---
 
 ## 📷 Screenshots
 
-### 🔍 Search & Result
+### 🔍 WEB & Result
 
-![Search Demo](./screenshots/search.png)
-
-### 🗺️ Interactive Map
-
-![Map View](./screenshots/map.png)
-
-### 🤖 AI-Generated Info
-
-![AI Details](./screenshots/ai_info.png)
-
-> You can replace these with your actual screenshot files under a `screenshots/` folder.
-
----
-
-## ⚙️ How to Run Locally
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/country-finder-ai.git
-cd country-finder-ai
-```
+![Search Demo](./screenshots/web.png)

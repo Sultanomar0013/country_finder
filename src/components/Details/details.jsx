@@ -21,7 +21,7 @@ function CountryInfo({ country }) {
 
   return (
     <div style={{ marginTop: "1rem" }}>
-      <button className="btn btn-primary" onClick={getInfo}>Get AI Info</button>
+      <button className="btn btn-primary" onClick={getInfo}>About This Country</button>
       {loading && <p>Loading info...</p>}
       {info && (
         <div style={{
@@ -30,8 +30,8 @@ function CountryInfo({ country }) {
           height: "30rem",
           overflowY: "auto",
         }}>
-          <h3>About {country}</h3>
-          <p>{info}</p>s
+          <h3>{country}</h3>
+          <p>{info}</p>
         </div>
       )}
     </div>

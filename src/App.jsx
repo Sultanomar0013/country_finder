@@ -9,7 +9,6 @@ function App() {
       <div className="app-layout">
         <Home />
         <WorldMap />
-        {/* <Clock /> */}
       </div>
     </ThemeProvider>
   );

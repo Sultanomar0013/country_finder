@@ -7,11 +7,6 @@ const Search = ({ onSearch }) => {
 
     const geoUrl = DATA.geoURL;
 
-    // useEffect(() => {
-        
-    // }, [])
-
-
     const handleSearch = () => {
         if (!searchTerm.trim()) {
             setSearchResult('');

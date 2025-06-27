@@ -3,7 +3,7 @@ import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import Search from "../Search";
 import { DATA, CountryCode } from "../../const";
 import Clock from '../Clock/Clock';
-import CountryInfo from "../Details/details";
+import CountryInfo from "../Details/Details";
 
 
 function WorldMap() {

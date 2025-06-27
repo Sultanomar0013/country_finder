@@ -13,8 +13,8 @@ function CountryInfo({ country }) {
   };
 
   useEffect(() => {
-    setInfo("");     // Clear previous info
-    setLoading(false); // Reset loading state
+    setInfo("");
+    setLoading(false);
   }, [country]);
 
 

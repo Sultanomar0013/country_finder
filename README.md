@@ -1,12 +1,60 @@
-# React + Vite
+# 🌍 Country Finder AI App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful and interactive web application that allows users to search for countries, view real-time maps, and receive detailed information using AI. Built with React, Axios, React Leaflet Map, and Groq API.
 
-Currently, two official plugins are available:
+![Country Finder App Banner](./screenshots/banner.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔍 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔎 **Country Search**: Type to search any country by name.
+- 🗺️ **Interactive Map**: View the selected country on a dynamic map using [React Leaflet](w).
+- 📄 **Detailed Info**: Get live data like capital, population, region, etc.
+- 🤖 **AI-Powered Insights**: Use [Groq API](w) to generate insightful descriptions and historical context about the country.
+- 🌓 **Responsive UI**: Fully responsive and user-friendly design.
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ [React](w) (Vite)
+- 🌐 [Axios](w)
+- 🗺️ [React Leaflet](w) (OpenStreetMap)
+- 🤖 [Groq LLM API](w)
+- 🎨 [Material UI](w)
+
+---
+
+## 🚀 Live Demo
+
+Coming soon...
+
+---
+
+## 📷 Screenshots
+
+### 🔍 Search & Result
+
+![Search Demo](./screenshots/search.png)
+
+### 🗺️ Interactive Map
+
+![Map View](./screenshots/map.png)
+
+### 🤖 AI-Generated Info
+
+![AI Details](./screenshots/ai_info.png)
+
+> You can replace these with your actual screenshot files under a `screenshots/` folder.
+
+---
+
+## ⚙️ How to Run Locally
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/country-finder-ai.git
+cd country-finder-ai
+```

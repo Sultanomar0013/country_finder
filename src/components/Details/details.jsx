@@ -21,7 +21,11 @@ function CountryInfo({ country }) {
 
   return (
     <div style={{ marginTop: "1rem" }}>
-      <button className="btn btn-primary" onClick={getInfo}>About This Country</button>
+      {country && 
+        <button className="btn btn-primary" onClick={getInfo}>
+          About {country}
+        </button>
+      }
       {loading && <p>Loading info...</p>}
       {info && (
         <div style={{

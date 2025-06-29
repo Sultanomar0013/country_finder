@@ -1,6 +1,6 @@
 # 🌍 Country Finder AI App
 
-A powerful and interactive web application that allows users to search for countries, view real-time maps, and receive detailed information using AI. Built with React, Axios, React Leaflet Map, and Groq API.
+A powerful and interactive web application that allows users to search for countries, view real-time maps, and receive detailed information using AI. Built with React, Axios, react-simple-maps, and Groq API.
 
 ![Country Finder App Banner](./screenshots/banner.png)
 

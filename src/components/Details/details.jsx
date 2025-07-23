@@ -21,7 +21,7 @@ function CountryInfo({ country }) {
 
   return (
     <div style={{ marginTop: "1rem" }}>
-      {country && 
+      {country && info === ''
         <button className="btn btn-primary" onClick={getInfo}>
           About {country}
         </button>

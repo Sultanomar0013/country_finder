@@ -34,7 +34,7 @@ function CountryInfo({ country }) {
           height: "30rem",
           overflowY: "auto",
         }}>
-          <h3>{country}</h3>
+          <h3>About {country}</h3>
           <p>{info}</p>
         </div>
       )}
